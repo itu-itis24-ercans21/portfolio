@@ -1,0 +1,41 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.game-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.lives {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#guessInput {
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.home-button {
+  display: inline-block;
+  margin: 2rem auto;
+  text-decoration: none;
+  color: #007bff;
+}
