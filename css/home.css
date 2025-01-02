@@ -1,0 +1,62 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  margin: 4rem 0;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+  max-width: 600px;
+  text-align: left;
+}
+
+.bio .academic-interests {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.bio .academic-interests h2 {
+  margin-bottom: 1rem;
+}
+
+.bio .academic-interests ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.bio .academic-interests li {
+  margin-bottom: 0.5rem;
+}
+
+.game-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  transition: background-color 0.3s;
+}
+
+.game-button:hover {
+  background-color: #0056b3;
+}
