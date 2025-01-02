@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Prediction Game - Basic</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Word Prediction Game</h1>
+        <div>
+          <div>Score: <span id="score">0</span></div>
+        </div>
+      </header>
+
+      <main>
+        <div id="wordDisplay">
+          <span>_</span>
+          <span>_</span>
+          <span>_</span>
+          <span>_</span>
+          <span>_</span>
+        </div>
+
+        <div>
+          <input
+            type="text"
+            id="guessInput"
+            maxlength="5"
+            placeholder="Enter a letter or word"
+          />
+          <button id="submitGuess">Guess</button>
+        </div>
+
+        <a href="index.html">Back to Homepage</a>
+      </main>
+    </div>
+    <script src="js/game.js"></script>
+  </body>
+</html>
